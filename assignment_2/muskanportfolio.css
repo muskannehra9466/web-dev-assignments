@@ -1,0 +1,134 @@
+/* Reset and center everything */
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: blue;
+    color: antiquewhite;
+    word-spacing: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 2px solid darkblue;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Add padding-top so content is not hidden behind fixed header */
+#am {
+    padding-top: 140px;
+}
+
+/* SECTION HEADINGS */
+h2 {
+    font-size: 36px;
+    margin: 20px 0;
+    color: darkblue; /* darker for readability */
+}
+
+/* GENERAL SECTION TEXT */
+section p, section td, section th, section label, section input, section textarea {
+    color: #222; /* dark gray for readability */
+}
+
+/* PROFILE IMAGE */
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+    border: 3px solid blue;
+}
+
+/* TABLE STYLING */
+table {
+    margin: auto;
+    border: 2px solid blue;
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.cl {
+    background-color: blue;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+/* PROJECT BOXES */
+.do {
+    border: 1px solid black;
+    width: 500px;
+    height: 150px;
+    margin: 20px auto;
+    background-color: antiquewhite;
+    padding-top: 40px;
+    color: #222; /* darker text */
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* BUTTONS */
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* FOOTER */
+footer {
+    background-color: blue;
+    color: white;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* BODY BACKGROUND */
+#hu {
+    background-image: url("☄️_3.jpeg"); /* optional */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #222; /* dark gray for readability */
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
